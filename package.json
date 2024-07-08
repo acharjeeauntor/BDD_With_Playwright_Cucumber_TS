@@ -3,7 +3,7 @@
     "test": "cucumber-js --format json:report.json --exit",
     "report": "node generate-report.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "@cucumber/cucumber": "^10.0.1",
     "@cucumber/pretty-formatter": "^1.0.0",
     "@playwright/test": "^1.40.1",
